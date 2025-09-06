@@ -1,0 +1,54 @@
+body {
+    background-color: #fff7fa;
+    font-family: 'Segoe UI', sans-serif;
+    color: #4d4d4d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9d5e5;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #c06c84;
+}
+
+.colores, .comidas, .deportes, .fotos {
+    background-color: #ffe3ec;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.galeria {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(192, 108, 132, 0.3);
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #f9d5e5;
+    text-align: center;
+    padding: 10px;
+    color: #4d4d4d;
+}
